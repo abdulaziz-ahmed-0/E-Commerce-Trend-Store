@@ -10,6 +10,7 @@ import ProfilePage from "./pages/ProfilePage";
 import SignUpPage from "./pages/SignUpPage";
 import WishlistPage from "./pages/WishlistPage";
 import CheckoutPage from "./pages/CheckoutPage";
+import ScrollToTop from "./components/ScrollToTop";
 import { CartProvider } from "./context/CartContext";
 import { WishlistProvider } from "./context/WishlistContext";
 import { AuthProvider } from "./context/AuthContext";
@@ -27,6 +28,7 @@ function App() {
         <WishlistProvider>
           <div className="d-flex flex-column min-vh-100">
             <Navbar />
+            <ScrollToTop />
             <main className="flex-grow-1">
               <Routes>
                 <Route path="/" element={<Home />} />
