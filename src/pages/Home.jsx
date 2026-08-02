@@ -68,8 +68,7 @@ const Home = () => {
             ></button>
           </div>
           <div className="carousel-inner" style={{ maxHeight: "500px" }}>
-
-            <div className="carousel-item active">
+            <div className="carousel-item">
               <img
                 src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&q=80&w=1200"
                 className="d-block w-100"
@@ -88,7 +87,7 @@ const Home = () => {
                   accessories with top quality and best prices.
                 </p>
                 <button
-                  className="btn btn-primary-custom btn-md px-4 d-inline-flex align-items-center gap-2"
+                  className="btn btn-light btn-md px-4 d-inline-flex align-items-center gap-2"
                   onClick={() => (window.location.href = "/category/all")}
                 >
                   Shop Now
@@ -97,7 +96,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="carousel-item">
+            <div className="carousel-item active">
               <img
                 src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&q=80&w=1200"
                 className="d-block w-100"
