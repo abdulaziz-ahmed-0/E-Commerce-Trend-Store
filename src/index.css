@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap');
+
+:root {
+  --primary-blue: #0d6efd;
+  --light-blue: #e0f2fe;
+  --mid-blue: #7dd3fc;
+  --dark-blue: #0284c7;
+  --bg-color: #f8f9fa;
+  --text-dark: #212529;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.text-primary-blue {
+  color: var(--primary-blue) !important;
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue) !important;
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--dark-blue);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(13, 110, 253, 0.2);
+}
+
+.card-custom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.category-pill {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-pill:hover, .category-pill.active {
+  background-color: var(--primary-blue) !important;
+  color: white !important;
+}
+.hover-primary { transition: color 0.2s ease; } .hover-primary:hover { color: var(--primary-blue) !important; } 
