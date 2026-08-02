@@ -35,7 +35,7 @@ To get a local copy up and running, follow these simple steps:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YourUsername/ecommerce-trend-store.git](https://github.com/YourUsername/ecommerce-trend-store.git)
+git clone [https://github.com/abdulaziz-ahmed-0/ecommerce-trend-store.git](https://github.com/abdulaziz-ahmed-0/ecommerce-trend-store.git)
 ```
 
 ### 2. Navigate to the project directory
@@ -72,4 +72,4 @@ src/
 * This project is a **Front-End only** application. All user data, sessions, and cart items are persistently stored in the browser's `localStorage` to simulate a real database environment.
 
 ---
-Developed with ❤️ by [ِAbdelaziz Ahmed]
+Developed with ❤️ by Abdulaziz Ahmed
